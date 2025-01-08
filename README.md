@@ -4,7 +4,7 @@ Instaill the app from  https://expo.dev/accounts/mebrieawoke/projects/getnet-hea
 
 A polished Expo React Native app for a healthcare clinic, built with Expo Router. It includes a landing home screen, service catalog, appointment booking form, and contact details.
  
-## Features 
+## Features   
 
 - Home dashboard with profile, location, and patient testimonials
 - Service list with animated cards and details
