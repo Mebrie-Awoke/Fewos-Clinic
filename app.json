@@ -7,7 +7,7 @@
     "userInterfaceStyle": "automatic",
     "assetBundlePatterns": [
       "**/*"
-    ],   
+    ], 
     "ios": {
       "supportsTablet": true
     }, 
