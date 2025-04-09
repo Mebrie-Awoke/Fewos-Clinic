@@ -10,7 +10,7 @@
     ],   
     "ios": {
       "supportsTablet": true
-    },
+    }, 
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#0F8B8D"
