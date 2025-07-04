@@ -54,8 +54,8 @@ export default function HomeScreen() {
         <Animated.View entering={FadeInUp.duration(800)} style={styles.section}>
           <SectionTitle title="What patients say" subtitle="Trusted, calming, and highly personalized care." />
           <FlatList
-            horizontal 
-            data={testimonials}
+            horizontal
+            data={testimonials} 
             keyExtractor={(item) => item.id}
             renderItem={({ item }) => <TestimonialCard item={item} />}
             showsHorizontalScrollIndicator={false}
