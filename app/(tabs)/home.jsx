@@ -55,7 +55,7 @@ export default function HomeScreen() {
           <SectionTitle title="What patients say" subtitle="Trusted, calming, and highly personalized care." />
           <FlatList
             horizontal 
-            data={testimonials}
+            data={testimonials} 
             keyExtractor={(item) => item.id}
             renderItem={({ item }) => <TestimonialCard item={item} />}
             showsHorizontalScrollIndicator={false}
