@@ -53,7 +53,7 @@ export default function HomeScreen() {
 
         <Animated.View entering={FadeInUp.duration(800)} style={styles.section}>
           <SectionTitle title="What patients say" subtitle="Trusted, calming, and highly personalized care." />
-          <FlatList
+          <FlatList 
             horizontal
             data={testimonials} 
             keyExtractor={(item) => item.id}
