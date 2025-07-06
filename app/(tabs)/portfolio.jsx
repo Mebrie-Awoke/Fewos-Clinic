@@ -37,7 +37,7 @@ export default function PortfolioScreen() {
               </Pressable>
             </Animated.View>
           ))}
-        </View>
+        </View>  
       </View>
       <Modal visible={Boolean(selectedItem)} transparent animationType="fade" onRequestClose={() => setSelectedItem(null)}>
         <Pressable style={styles.modalOverlay} onPress={() => setSelectedItem(null)}>
