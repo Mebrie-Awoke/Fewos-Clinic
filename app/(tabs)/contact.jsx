@@ -46,7 +46,7 @@ export default function ContactScreen() {
     { icon: 'location-outline', title: 'Location', value: '2207 4th Avenue, Seattle' },
   ], []); 
  
-  return (
+  return ( 
     <SafeAreaView style={styles.safeArea} edges={['top', 'bottom']}>
       <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
         <ScrollView contentContainerStyle={styles.container} showsVerticalScrollIndicator={false}>
