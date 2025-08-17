@@ -17,7 +17,7 @@ export default function TabsLayout() {
         headerShown: false,
         tabBarActiveTintColor: COLORS.primary,
         tabBarInactiveTintColor: COLORS.secondaryText,
-        tabBarStyle,  
+        tabBarStyle,   
         tabBarLabelStyle: { fontSize: 12, fontWeight: '700' },
         tabBarIcon: ({ color, size, focused }) => {
           let iconName = 'home-outline';
