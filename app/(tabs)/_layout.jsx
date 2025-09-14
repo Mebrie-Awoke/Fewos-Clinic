@@ -5,7 +5,7 @@ import { COLORS } from '../../src/constants/Colors';
    
 export default function TabsLayout() {
   const tabBarStyle = useMemo(() => ({  
-    backgroundColor: COLORS.card,
+    backgroundColor: COLORS.card,  
     borderTopColor: COLORS.border,
     height: 72,   
     paddingBottom: 10, 
