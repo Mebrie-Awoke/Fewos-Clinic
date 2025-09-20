@@ -9,7 +9,7 @@ export default function TabsLayout() {
     borderTopColor: COLORS.border,
     height: 72,
     paddingBottom: 10,
-    paddingTop: 8,
+    paddingTp: 8,
   }), []);
  
   return (
