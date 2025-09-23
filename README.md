@@ -1,1 +1,1 @@
-# Getnet    AW
+# Getnet    A
