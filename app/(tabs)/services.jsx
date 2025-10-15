@@ -10,7 +10,7 @@ import SectionTitle from '../../src/components/SectionTitle';
 export default function ServicesScreen() {
   const [data] = useState(services);
   const content = useMemo(() => data, [data]);
-  return (  
+  return (    
     <SafeAreaView style={styles.safeArea} edges={['top', 'bottom']}>
       <View style={styles.container}>
         <SectionTitle title="Services" subtitle="Flexible care plans designed to meet the needs of every patient." />
