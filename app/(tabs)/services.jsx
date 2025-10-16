@@ -14,7 +14,7 @@ export default function ServicesScreen() {
     <SafeAreaView style={styles.safeArea} edges={['top', 'bottom']}>
       <View style={styles.container}>
         <SectionTitle title="Services" subtitle="Flexible care plans designed to meet the needs of every patient." />
-        <FlatList
+        <FlatList 
           data={content}
           keyExtractor={(item) => item.id}
           renderItem={({ item, index }) => (
