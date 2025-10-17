@@ -37,7 +37,7 @@ export default function ContactScreen() {
     } finally {
       setSubmitting(false);
     }
-  };
+  }; 
   
   const contactDetails = useMemo(() => [
     { icon: 'mail-outline', title: 'Email', value: 'care@northwellclinic.com' },
