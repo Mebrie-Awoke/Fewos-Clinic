@@ -44,7 +44,7 @@ export default function ContactScreen() {
     { icon: 'call-outline', title: 'Phone', value: '+1 (206) 555-0146' },
     { icon: 'logo-whatsapp', title: 'WhatsApp', value: '+1 (206) 555-0146' },
     { icon: 'location-outline', title: 'Location', value: '2207 4th Avenue, Seattle' },
-  ], []);
+  ], []); 
 
   return (
     <SafeAreaView style={styles.safeArea} edges={['top', 'bottom']}>
