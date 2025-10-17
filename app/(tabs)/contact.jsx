@@ -38,7 +38,7 @@ export default function ContactScreen() {
       setSubmitting(false);
     }
   };
-
+  
   const contactDetails = useMemo(() => [
     { icon: 'mail-outline', title: 'Email', value: 'care@northwellclinic.com' },
     { icon: 'call-outline', title: 'Phone', value: '+1 (206) 555-0146' },
