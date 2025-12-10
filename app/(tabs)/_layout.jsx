@@ -12,7 +12,7 @@ export default function TabsLayout() {
     paddingTop: 8,
   }), []);
     
-  return (   
+  return ( 
     <Tabs
       screenOptions={({ route }) => ({
         headerShown: false,
