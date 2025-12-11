@@ -13,7 +13,7 @@ export default function TabsLayout() {
   }), []);
     
   return ( 
-    <Tabs
+    <Tabs 
       screenOptions={({ route }) => ({
         headerShown: false,
         tabBarActiveTintColor: COLORS.primary,
