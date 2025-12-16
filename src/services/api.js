@@ -13,7 +13,7 @@ api.interceptors.request.use(async (config) => {
   }
   return config;
 }); 
-      
+        
 export const submitAppointment = async (payload) => {
   try {  
     const response = await api.post('/posts', payload);
