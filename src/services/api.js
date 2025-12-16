@@ -12,7 +12,7 @@ api.interceptors.request.use(async (config) => {
     config.headers.Authorization = `Bearer ${token}`;
   }
   return config;
-}); 
+});  
 
 export const submitAppointment = async (payload) => {
   try {  
