@@ -15,7 +15,7 @@ api.interceptors.request.use(async (config) => {
 }); 
 
 export const submitAppointment = async (payload) => {
-  try { 
+  try {  
     const response = await api.post('/posts', payload);
     return response.data;
   } catch (error) {
