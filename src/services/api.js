@@ -21,4 +21,4 @@ export const submitAppointment = async (payload) => {
   } catch (error) { 
     return { error: true, message: error.message };
   }
-}; 
+};   
