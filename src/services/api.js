@@ -18,7 +18,7 @@ export const submitAppointment = async (payload) => {
   try {  
     const response = await api.post('/posts', payload);
     return response.data;
-  } catch (error) {
+  } catch (error) { 
     return { error: true, message: error.message };
   }
 };
