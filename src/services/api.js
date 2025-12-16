@@ -22,4 +22,3 @@ export const submitAppointment = async (payload) => {
     return { error: true, message: error.message };
   }
 }; 
-      
