@@ -13,7 +13,7 @@ import SectionTitle from '../../src/components/SectionTitle';
 import PrimaryButton from '../../src/components/PrimaryButton';
 import Loading from '../../src/components/Loading';
 
-const { width } = Dimensions.get('window');  
+const { width } = Dimensions.get('window');
 
 export default function HomeScreen() {
   const router = useRouter();
