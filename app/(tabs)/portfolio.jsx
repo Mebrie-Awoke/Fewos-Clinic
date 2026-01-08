@@ -49,7 +49,7 @@ export default function PortfolioScreen() {
         </Pressable>
       </Modal>
     </SafeAreaView>
-  );
+  );  
 }
 
 const styles = StyleSheet.create({
