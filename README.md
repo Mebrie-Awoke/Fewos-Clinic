@@ -13,7 +13,7 @@ A polished Expo React Native app for a healthcare clinic, built with Expo Router
 - Expo Router navigation and responsive mobile layout
 
 ## Tech Stack
-
+  
 - Expo + Expo Router
 - React Native
 - React Hook Form
