@@ -36,7 +36,7 @@ export default function PortfolioScreen() {
                 <Text style={styles.gridTitle}>{item.title}</Text>
               </Pressable>
             </Animated.View>
-          ))}
+          ))} 
         </View>
       </View>
       <Modal visible={Boolean(selectedItem)} transparent animationType="fade" onRequestClose={() => setSelectedItem(null)}>
