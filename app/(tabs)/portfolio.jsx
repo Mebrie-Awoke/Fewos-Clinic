@@ -48,7 +48,7 @@ export default function PortfolioScreen() {
           </View>
         </Pressable>  
       </Modal>  
-    </SafeAreaView>
+    </SafeAreaView>  
   );  
 }
 
