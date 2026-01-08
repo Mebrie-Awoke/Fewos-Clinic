@@ -10,8 +10,8 @@ import { profile, testimonials } from '../../src/constants/DummyData';
 import ProfileCard from '../../src/components/ProfileCard';
 import TestimonialCard from '../../src/components/TestimonialCard';
 import SectionTitle from '../../src/components/SectionTitle';
-import PrimaryButton from '../../src/components/PrimaryButton';
-import Loading from '../../src/components/Loading';
+import PrimaryButton from '../../src/components/PrimaryButton'; 
+import Loading from '../../src/components/Loading';  
 
 const { width } = Dimensions.get('window'); 
 
