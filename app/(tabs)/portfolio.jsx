@@ -47,7 +47,7 @@ export default function PortfolioScreen() {
             <Text style={styles.modalText}>{selectedItem?.type}</Text>
           </View>
         </Pressable>  
-      </Modal>
+      </Modal>  
     </SafeAreaView>
   );  
 }
