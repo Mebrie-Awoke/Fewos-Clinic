@@ -12,7 +12,7 @@ A polished Expo React Native app for a healthcare clinic, built with Expo Router
 - Contact options via email, phone, WhatsApp, and address
 - Expo Router navigation and responsive mobile layout
 
-## Tech Stack   
+## Tech Stack 
   
 - Expo + Expo Router
 - React Native
