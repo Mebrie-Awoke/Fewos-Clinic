@@ -30,7 +30,7 @@ export default function HomeScreen() {
 
   if (loading) {
     return <Loading />;
-  }  
+  }
 
   return (
     <SafeAreaView style={styles.safeArea} edges={['top', 'bottom']}>
@@ -38,7 +38,7 @@ export default function HomeScreen() {
         <Animated.View entering={FadeInUp.duration(600)} style={styles.heroCard}>
           <ProfileCard profile={profile} onPress={() => router.push('/(tabs)/portfolio')} />
         </Animated.View>
-
+    
         <Animated.View entering={FadeInUp.duration(700)} style={styles.locationCard}>
           <View style={styles.locationHeader}>
             <View>
