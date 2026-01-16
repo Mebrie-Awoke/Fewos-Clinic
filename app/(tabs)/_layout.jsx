@@ -20,7 +20,7 @@ export default function TabsLayout() {
         tabBarStyle,   
         tabBarLabelStyle: { fontSize: 12, fontWeight: '700' },
         tabBarIcon: ({ color, size, focused }) => {
-          let iconName = 'home-outline';
+          let iconName = 'home-outline'; 
           if (route.name === 'home') iconName = focused ? 'home' : 'home-outline';
           else if (route.name === 'services') iconName = focused ? 'medkit' : 'medkit-outline';
           else if (route.name === 'portfolio') iconName = focused ? 'images' : 'images-outline';
