@@ -3,7 +3,6 @@ import { Tabs } from 'expo-router';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { COLORS } from '../../src/constants/Colors';
 
-
 export default function TabsLayout() {
   const tabBarStyle = useMemo(() => ({
     backgroundColor: COLORS.card,
