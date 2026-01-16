@@ -27,7 +27,7 @@ export default function TabsLayout() {
           else if (route.name === 'contact') iconName = focused ? 'call' : 'call-outline';
           return <Icon name={iconName} size={size} color={color} />;
         }, 
-      })}    
+      })}     
     />   
   ); 
 }
