@@ -3,16 +3,17 @@ import { Tabs } from 'expo-router';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { COLORS } from '../../src/constants/Colors';
 
+
 export default function TabsLayout() {
   const tabBarStyle = useMemo(() => ({
     backgroundColor: COLORS.card,
     borderTopColor: COLORS.border,
-    height: 72, 
+    height: 72,
     paddingBottom: 10, 
     paddingTop: 8,
   }), []); 
   return (     
-    <Tabs
+    <Tabs 
       screenOptions={({ route }) => ({
         headerShown: false,
         tabBarActiveTintColor: COLORS.primary,
