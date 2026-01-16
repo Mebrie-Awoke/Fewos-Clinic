@@ -28,7 +28,7 @@ export default function TabsLayout() {
           return <Icon name={iconName} size={size} color={color} />;
         }, 
       })}     
-    />   
+    /> 
   );      
 }    
   
