@@ -10,8 +10,7 @@ export default function TabsLayout() {
     height: 72,
     paddingBottom: 10,
     paddingTop: 8,
-  }), []);
-        
+  }), []);    
   return (  
     <Tabs 
       screenOptions={({ route }) => ({
