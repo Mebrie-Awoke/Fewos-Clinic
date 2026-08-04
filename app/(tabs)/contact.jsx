@@ -40,10 +40,10 @@ export default function ContactScreen() {
   }; 
    
   const contactDetails = useMemo(() => [
-    { icon: 'mail-outline', title: 'Email', value: 'care@northwellclinic.com' },
-    { icon: 'call-outline', title: 'Phone', value: '+1 (206) 555-0146' },
-    { icon: 'logo-whatsapp', title: 'WhatsApp', value: '+1 (206) 555-0146' },
-    { icon: 'location-outline', title: 'Location', value: '2207 4th Avenue, Seattle' },
+    { icon: 'mail-outline', title: 'Email', value: 'getnetawoke@gmail.com' },
+    { icon: 'call-outline', title: 'Phone', value: '+251 941 873 478' },
+    { icon: 'logo-whatsapp', title: 'WhatsApp', value: '+251 941 873 478' },
+    { icon: 'location-outline', title: 'Location', value: 'Mertulemariam, Amhara, Ethiopia' },
   ], []); 
  
   return ( 

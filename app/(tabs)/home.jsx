@@ -3,6 +3,7 @@ import { Alert, Dimensions, FlatList, Pressable, ScrollView, StyleSheet, Text, V
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Image } from 'expo-image';
 import Animated, { FadeInUp, useSharedValue, withTiming } from 'react-native-reanimated';
+import { useRouter } from 'expo-router';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { COLORS } from '../../src/constants/Colors';
 import { profile, testimonials } from '../../src/constants/DummyData';
@@ -15,6 +16,7 @@ import Loading from '../../src/components/Loading';
 const { width } = Dimensions.get('window');
 
 export default function HomeScreen() {
+  const router = useRouter();
   const [loading, setLoading] = useState(true);
   const fade = useSharedValue(0);
 
@@ -34,21 +36,21 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.safeArea} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.container} showsVerticalScrollIndicator={false}>
         <Animated.View entering={FadeInUp.duration(600)} style={styles.heroCard}>
-          <ProfileCard profile={profile} onPress={() => Alert.alert('Certificates', 'These certificates showcase specialist training and care standards.')} />
+          <ProfileCard profile={profile} onPress={() => router.push('/(tabs)/portfolio')} />
         </Animated.View>
 
         <Animated.View entering={FadeInUp.duration(700)} style={styles.locationCard}>
           <View style={styles.locationHeader}>
             <View>
               <Text style={styles.locationTitle}>Clinic Location</Text>
-              <Text style={styles.locationText}>Northwell Wellness Center • Seattle</Text>
+              <Text style={styles.locationText}>Mertulemariam, Amhara, Ethiopia</Text>
             </View>
             <View style={styles.mapBadge}>
               <Icon name="location" size={18} color={COLORS.primary} />
             </View>
           </View>
-          <Image source={{ uri: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80' }} style={styles.mapImage} contentFit="cover" />
-          <PrimaryButton title="Book Appointment" onPress={() => Alert.alert('Booking', 'Appointment booking is ready from the Contact tab.')} style={styles.button} />
+          <Image source={require('../../src/assets/images/Getnet.jpg')} style={styles.mapImage} contentFit="cover" />
+          <PrimaryButton title="Book Appointment" onPress={() => router.push('/(tabs)/contact')} style={styles.button} />
         </Animated.View>
 
         <Animated.View entering={FadeInUp.duration(800)} style={styles.section}>
