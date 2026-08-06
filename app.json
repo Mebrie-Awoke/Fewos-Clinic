@@ -13,9 +13,12 @@
     },
     "android": {
       "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icons/icons.jpg",
         "backgroundColor": "#0F8B8D"
-      }
+      },
+      "package": "com.Fewosclinic.healthcare"
     },
+    "icon": "./src/assets/icons/icons.jpg",
     "experiments": {
       "typedRoutes": true
     },
@@ -23,6 +26,15 @@
       "expo-router",
       "expo-asset",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "faa77d83-3e5c-4a56-b8c2-4b021af9baa3"
+      }
+    },
+    "owner": "mebrieawoke"
   }
 }
