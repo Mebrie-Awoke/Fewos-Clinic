@@ -31,7 +31,7 @@ A polished Expo React Native app for a healthcare clinic, built with Expo Router
 
 2. Start the app:
    ```bash
-   npm run start
+   npx expo start
    ```
 
 3. Run on a device or emulator:
