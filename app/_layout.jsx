@@ -4,7 +4,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';
 import { COLORS } from '../src/constants/Colors';
 import { StyleSheet } from 'react-native';    
-  
+    
 export default function RootLayout() {
   return (
     <GestureHandlerRootView style={styles.container}>
